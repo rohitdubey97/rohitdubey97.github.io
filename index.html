@@ -2,14 +2,27 @@
 <html lang="en">
 <head>
 
-     <title>Rohit's Resume - Profile HTML Page</title>
+     <title>Rohit Dubey - Senior Software Engineer | Full Stack Developer Portfolio</title>
 
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="Tooplate">
+     <meta name="description" content="Rohit Dubey - Senior Software Engineer with 5+ years of experience in Java, Spring Boot, Microservices, and Full Stack Development. Specialized in Fintech, Payment Solutions, and Cloud Technologies.">
+     <meta name="keywords" content="Rohit Dubey, Senior Software Engineer, Java Developer, Spring Boot, Microservices, Full Stack Developer, Fintech, Payment Solutions, React, Docker, Kubernetes, Azure, Pine Labs, UKG">
+     <meta name="author" content="Rohit Dubey">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     
+     <!-- Open Graph Meta Tags -->
+     <meta property="og:title" content="Rohit Dubey - Senior Software Engineer Portfolio">
+     <meta property="og:description" content="Experienced Senior Software Engineer specializing in Java, Spring Boot, Microservices, and Full Stack Development with expertise in Fintech solutions.">
+     <meta property="og:type" content="website">
+     <meta property="og:url" content="https://rohitdubey97.github.io">
+     <meta property="og:image" content="https://rohitdubey97.github.io/images/ben.jpg">
+     
+     <!-- Twitter Card Meta Tags -->
+     <meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:title" content="Rohit Dubey - Senior Software Engineer">
+     <meta name="twitter:description" content="Senior Software Engineer with expertise in Java, Spring Boot, Microservices, and Fintech solutions.">
+     <meta name="twitter:image" content="https://rohitdubey97.github.io/images/ben.jpg">
 
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/all.min.css">
@@ -18,6 +31,86 @@
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+     
+     <style>
+         /* Smooth animations */
+         .badge {
+             transition: all 0.3s ease;
+         }
+         .badge:hover {
+             transform: translateY(-3px);
+             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+         }
+         
+         .stats-box {
+             padding: 20px;
+             border-radius: 10px;
+             background: #f8f9fa;
+             transition: all 0.3s ease;
+         }
+         .stats-box:hover {
+             transform: translateY(-10px);
+             box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+             background: #fff;
+         }
+         .stats-number {
+             font-size: 2.5rem;
+             font-weight: bold;
+             margin-bottom: 10px;
+         }
+         .stats-label {
+             color: #666;
+             font-size: 1rem;
+         }
+         
+         .testimonials-thumb {
+             transition: all 0.3s ease;
+         }
+         .testimonials-thumb:hover {
+             transform: scale(1.05);
+             box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+         }
+         
+         .card {
+             transition: all 0.3s ease;
+             border-left: 4px solid transparent;
+         }
+         .card:hover {
+             border-left-color: #007bff;
+             box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+         }
+         
+         .custom-btn {
+             transition: all 0.3s ease;
+         }
+         .custom-btn:hover {
+             transform: translateY(-2px);
+             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+         }
+         
+         .social-links li a {
+             transition: all 0.3s ease;
+         }
+         .social-links li a:hover {
+             transform: scale(1.2);
+         }
+         
+         /* Fade-in animation on page load */
+         @keyframes fadeInUp {
+             from {
+                 opacity: 0;
+                 transform: translateY(30px);
+             }
+             to {
+                 opacity: 1;
+                 transform: translateY(0);
+             }
+         }
+         
+         .about, .testimonials, .faq, .contact {
+             animation: fadeInUp 0.8s ease;
+         }
+     </style>
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
@@ -54,7 +147,7 @@
                 </ul>
 
                 <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
-                    <a href="Rohit_Resume_4_YOE.pdf" class="custom-btn btn" download>Download CV</a>
+                    <a href="Rohit_Resume_4_YOE.pdf" class="custom-btn btn" download><i class="fas fa-download mr-2"></i>Download CV</a>
                 </div>
             </div>
 
@@ -75,10 +168,10 @@
                    <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
                         <div class="hero-text">
 
-                            <h1 class="hero-title">👋 Hi, I'm Rohit Dubey</h1>
+                            <h1 class="hero-title">Rohit Dubey</h1>
 
                             <a href="#" class="email-link">
-                                Senior Software Developer
+                                Senior Software Engineer
                             </a>
                           
                         </div>
@@ -94,19 +187,18 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 col-12">
-                    <h3 class="mb-4">This is Rohit's Resume</h3>
+                    <h3 class="mb-4">Professional Summary</h3>
 
-                    <p>Living life with a perpetual smile and a can-do spirit, I'm the enthusiast you want on your team.
-                        I've experienced the worlds of Service based companies, enhanced Products based companies, and embraced the chaos of Startups.
-                        My mantra? Perfecting the art of making things happen.
-                        Let's turn dreams into reality, one optimistic step at a time – because why not make success look cool?</p>
+                    <p>Results-driven Senior Software Engineer with extensive experience across service-based organizations, product-focused companies, and fast-paced startup environments.
+                        I specialize in building scalable microservices, implementing innovative fintech solutions, and leveraging cutting-edge technologies to drive business growth.
+                        With a proven track record of delivering high-impact projects, I excel at transforming complex technical challenges into efficient, production-ready solutions that deliver measurable business value.</p>
 
                     <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
                         <li><strong>Full Name :</strong> Rohit Dubey </li>
 
                         <li><strong>Date of Birth:</strong> 13 March 1997</li>
 
-                        <li><strong>Website :</strong> Senior Software Developer</li>
+                        <li><strong>Current Role :</strong> Senior Software Engineer</li>
 
                         <li><strong>Email :</strong> rohitdubey.rd.87@gmail.com</li>
                     </ul>
@@ -119,16 +211,64 @@
             </div>
             <div class="row about-third">
             	<div class="col-lg-4 col-md-4 col-12">
-                <h3>Backend</h3>
-                <p> Java, Spring Boot, SQL databases, Microservices, Kafka, gRPC, REST APIs, Python, Data Structures and Algorithms, Low-Level Design (LLD), High-Level Design (HLD)</p>
+                <h3><i class="fas fa-server"></i> Backend Development</h3>
+                <p>Expert in Java, Spring Boot, SQL databases, Microservices architecture, Apache Kafka, gRPC, REST APIs, and Python. Strong foundation in Data Structures and Algorithms, with proficiency in both Low-Level Design (LLD) and High-Level Design (HLD) principles.</p>
+                <div class="mt-3">
+                    <span class="badge badge-primary mr-1 mb-2"><i class="fab fa-java"></i> Java</span>
+                    <span class="badge badge-primary mr-1 mb-2"><i class="fas fa-leaf"></i> Spring Boot</span>
+                    <span class="badge badge-primary mr-1 mb-2"><i class="fas fa-database"></i> SQL</span>
+                    <span class="badge badge-primary mr-1 mb-2"><i class="fas fa-project-diagram"></i> Microservices</span>
+                    <span class="badge badge-primary mr-1 mb-2"><i class="fab fa-python"></i> Python</span>
+                </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
-                <h3>Frontend</h3>
-                <p>HTML, CSS, JavaScript, React, and I'm open to learning any other frontend technologies.</p>
+                <h3><i class="fas fa-palette"></i> Frontend Development</h3>
+                <p>Proficient in HTML, CSS, JavaScript, and React. Adaptable to various frontend technologies and frameworks as required by project needs.</p>
+                <div class="mt-3">
+                    <span class="badge badge-success mr-1 mb-2"><i class="fab fa-html5"></i> HTML5</span>
+                    <span class="badge badge-success mr-1 mb-2"><i class="fab fa-css3-alt"></i> CSS3</span>
+                    <span class="badge badge-success mr-1 mb-2"><i class="fab fa-js"></i> JavaScript</span>
+                    <span class="badge badge-success mr-1 mb-2"><i class="fab fa-react"></i> React</span>
+                </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
-                <h3>Dev-Ops</h3>
-                <p> Ansible, Jenkins, SFTP management, Kafka, gRPC, REST APIs, Microservices, Docker, Kubernetes, Azure, Datadog </p>
+                <h3><i class="fas fa-cogs"></i> DevOps & Infrastructure</h3>
+                <p>Experienced with Ansible, Jenkins, SFTP management, Apache Kafka, gRPC, REST APIs, Microservices deployment, Docker, Kubernetes, Microsoft Azure, and Datadog monitoring solutions.</p>
+                <div class="mt-3">
+                    <span class="badge badge-info mr-1 mb-2"><i class="fab fa-docker"></i> Docker</span>
+                    <span class="badge badge-info mr-1 mb-2"><i class="fas fa-dharmachakra"></i> Kubernetes</span>
+                    <span class="badge badge-info mr-1 mb-2"><i class="fab fa-microsoft"></i> Azure</span>
+                    <span class="badge badge-info mr-1 mb-2"><i class="fab fa-jenkins"></i> Jenkins</span>
+                    <span class="badge badge-info mr-1 mb-2"><i class="fas fa-chart-line"></i> Datadog</span>
+                </div>
+                </div>
+            </div>
+            
+            <!-- Stats Section -->
+            <div class="row mt-5 pt-5 text-center">
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="stats-box">
+                        <h2 class="stats-number"><i class="fas fa-briefcase text-primary"></i> 5+</h2>
+                        <p class="stats-label">Years Experience</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="stats-box">
+                        <h2 class="stats-number"><i class="fas fa-building text-success"></i> 4</h2>
+                        <p class="stats-label">Companies Worked</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="stats-box">
+                        <h2 class="stats-number"><i class="fas fa-project-diagram text-info"></i> 10+</h2>
+                        <p class="stats-label">Major Projects</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="stats-box">
+                        <h2 class="stats-number"><i class="fas fa-rocket text-warning"></i> 3x</h2>
+                        <p class="stats-label">Revenue Growth</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -141,13 +281,27 @@
                <div class="row">
 
                     <div class="col-12">
-                        <h3 class="mb-5 text-center">Experiences</h3>
+                        <h3 class="mb-5 text-center">Professional Experience</h3>
 
                         <div class="owl-carousel owl-theme" id="testimonials-carousel">
                             <div class="item">
                                 <div class="testimonials-thumb d-flex">
                                     <div class="testimonials-image">
-                                        <img src="images/testimonials/testimonial-image01.jpg" class="img-fluid" alt="testimonials image">
+                                        <img src="images/testimonials/pinelabs-logo.jpg" class="img-fluid" alt="Pine Labs logo">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Senior Software Engineer - <br>Fintech & SaaS Development</p>
+
+                                        <h6 class="mb-0">Pine Labs</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/ukg-logo.jpg" class="img-fluid" alt="UKG logo">
                                     </div>
 
                                     <div class="testimonials-info">
@@ -204,19 +358,47 @@
 
                 <div class="col-lg-12 col-12">
 
-                    <h3 class="mb-5">Project Details and my contributions</h3>
+                    <h3 class="mb-5">Key Projects and Contributions</h3>
 
                     <div class="accordion" id="accordionExample">
                       <div class="card">
-                        <div class="card-header" id="headingOne">
+                        <div class="card-header" id="headingZero">
                           <h2 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              Ultimate Kronos Group (UKG)
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
+                              <img src="images/testimonials/pinelabs-logo.jpg" alt="Pine Labs" style="width: 30px; height: 30px; object-fit: contain; margin-right: 10px; vertical-align: middle;"> Pine Labs
                             </button>
                           </h2>
                         </div>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div id="collapseZero" class="collapse show" aria-labelledby="headingZero" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p><strong>Pine Labs, Noida, India</strong><br>
+                            <strong>Senior Software Engineer</strong> | Apr 2025 – Present</p>
+
+                            <p>Pine Labs is a leading merchant commerce platform in Asia, providing comprehensive payment solutions and financial services to businesses. Their innovative technology enables seamless transactions and empowers merchants with advanced payment processing capabilities.</p>
+
+                            <ul>
+                              <li>Built Offer Engine as a SaaS product and integrated with merchants like ICICI and Juspay, contributing to 3x revenue growth of the offer engine</li>
+                              <li>Developed modular LazyPay adapter enabling seamless NBFC partner onboarding with minimal code changes</li>
+                              <li>Implemented UPI Instant Cashback features boosting merchant conversions</li>
+                              <li>Leveraged AI agents (GitHub Copilot, GPT-5, Claude, Gemini) to speed up microservice development, achieving 10x faster development cycles</li>
+                              <li>Created Client Onboarding Service enabling bulk onboarding within seconds (reduced go-live time from hours to seconds)</li>
+                              <li>Integrated multiple third-party fintech APIs for secure and scalable onboarding and transactions</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              <img src="images/testimonials/ukg-logo.jpg" alt="UKG" style="width: 30px; height: 30px; object-fit: contain; margin-right: 10px; vertical-align: middle;"> Ultimate Kronos Group (UKG)
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                           <div class="card-body">
                             <p>UKG is a leading provider of human capital management (HCM) and workforce management solutions, dedicated to helping organizations
                                 streamline their HR processes. Their tools play a crucial role in optimizing workforce performance, enhancing employee engagement,
@@ -234,7 +416,7 @@
                         <div class="card-header" id="headingTwo">
                           <h2 class="mb-0">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              KlearNow
+                              <img src="images/testimonials/testimonial-image02.jpg" alt="KlearNow" style="width: 30px; height: 30px; object-fit: contain; margin-right: 10px; vertical-align: middle;"> KlearNow
                             </button>
                           </h2>
                         </div>
@@ -254,18 +436,22 @@
                         <div class="card-header" id="headingThree">
                           <h2 class="mb-0">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              Accenture
+                              <img src="images/testimonials/testimonial-image03.jpg" alt="Accenture" style="width: 30px; height: 30px; object-fit: contain; margin-right: 10px; vertical-align: middle;"> Accenture
                             </button>
                           </h2>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                           <div class="card-body">
-                            <p>KlearNow provides Logistics-as-a-Service (LAAS) solutions, transforming the logistics and customs clearance industry by automating processes and making them more efficient.
-                                Their platform is vital for businesses looking to simplify customs clearance and improve the efficiency of their supply chain operations.</p>
+                            <p><strong>Accenture</strong><br>
+                            <strong>Associate Software Engineer</strong> | Dec 2020 – Jul 2022</p>
 
-                          <p>At KlearNow, I developed end-to-end services for the broker panel, which handled the calculations for imported and exported goods in the Netherlands.
-                                I integrated country-specific rules, improving compliance with customs regulations. My work enabled automatic export of required shipment documents at every step,
-                                along with solutions for auto-populating data and performing currency conversions, tax, and duty calculations, boosting broker efficiency and accuracy.</p>
+                            <p>Accenture is a global professional services company providing a broad range of services in strategy, consulting, digital, technology, and operations. Their expertise helps clients transform their business operations and drive innovation across various industries.</p>
+
+                            <ul>
+                              <li>Developed new features and integrations for New York Life (NYL) applications</li>
+                              <li>Designed reinsurance configuration flows in alignment with premium logic</li>
+                              <li>Built Automation Anywhere RPA bots to automate manual processes</li>
+                            </ul>
                           </div>
                         </div>
                       </div>
@@ -274,6 +460,70 @@
            	 </div><!-- col -->
         	</div><!-- row -->
         </div><!-- container -->
+    </section>
+
+    
+    <!-- PROJECTS SECTION -->
+    <section class="projects section-padding" style="background: #f8f9fa;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="mb-5 text-center"><i class="fab fa-github mr-3"></i>Featured Projects & Portfolio</h3>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-code mr-2"></i>Microservices Architecture</h5>
+                            <p class="card-text">Built scalable microservices using Spring Boot, Kafka, and Docker for high-volume fintech applications.</p>
+                            <div class="mt-3">
+                                <span class="badge badge-primary mr-1">Java</span>
+                                <span class="badge badge-primary mr-1">Spring Boot</span>
+                                <span class="badge badge-primary mr-1">Kafka</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-robot mr-2"></i>RPA Automation</h5>
+                            <p class="card-text">Developed Automation Anywhere bots to automate manual processes, reducing processing time by 70%.</p>
+                            <div class="mt-3">
+                                <span class="badge badge-success mr-1">RPA</span>
+                                <span class="badge badge-success mr-1">Automation</span>
+                                <span class="badge badge-success mr-1">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-mobile-alt mr-2"></i>Payment Integration</h5>
+                            <p class="card-text">Integrated UPI, LazyPay, and multiple payment gateways for seamless merchant transactions.</p>
+                            <div class="mt-3">
+                                <span class="badge badge-info mr-1">Fintech</span>
+                                <span class="badge badge-info mr-1">APIs</span>
+                                <span class="badge badge-info mr-1">Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <a href="https://github.com/rohitdubey97" target="_blank" class="custom-btn btn">
+                        <i class="fab fa-github mr-2"></i>View More on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 
 
@@ -307,20 +557,21 @@
           </div>
 
             <div class="mx-auto col-lg-4 col-md-6 col-12">
-                <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
+                <h3 class="my-4 pt-4 pt-lg-0">Contact Information</h3>
 
-                <p class="mb-1">+91-9630949095</p>
+                <p class="mb-1"><i class="fas fa-phone mr-2"></i>+91-963094****</p>
 
                 <p>
-                    <a href="#">
-                        rohitdubey.rd.87@gmail.com
+                    <a href="mailto:rohitdubey.rd.87@gmail.com">
+                        <i class="fas fa-envelope mr-2"></i>rohitdubey.rd.87@gmail.com
                     <i class="fas fa-arrow-right custom-icon"></i>
                     </a>
                 </p>
 
                 <ul class="social-links mt-2">
-                    <li><a href="https://www.instagram.com/just_roh_it/" rel="noopener" class="fab fa-instagram"></a></li>
-                    <li><a href="https://www.linkedin.com/in/rohit9630949095/" rel="noopener" class="fab fa-linkedin"></a></li>
+                    <li><a href="https://github.com/rohitdubey97" rel="noopener" class="fab fa-github" target="_blank"></a></li>
+                    <li><a href="https://www.linkedin.com/in/rohitdubeysde/" rel="noopener" class="fab fa-linkedin" target="_blank"></a></li>
+                    <li><a href="https://www.instagram.com/just_roh_it/" rel="noopener" class="fab fa-instagram" target="_blank"></a></li>
                 </ul>
                 
               <p class="copyright-text mt-5 pt-3">Copyright &copy; 2023 Rohit Resume Page</p>
